@@ -6,6 +6,7 @@ const app = express();
 
 // Create GET request
 app.get("/", (req, res) => {
+    console.log("Log para get");
   res.send("Express get on Vercel");
 });
 
